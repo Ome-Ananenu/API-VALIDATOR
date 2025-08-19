@@ -13,8 +13,10 @@ A simple Node.js tool for QA engineers to validate API responses.
 ## Installation
 ```bash
 npm install qa-api-validator
+```
 
 ## Usage
+Use it in your Node.js project like this:
 ```javascript
 const { checkStatusCode, checkJSONKey } = require('qa-api-validator');
 
