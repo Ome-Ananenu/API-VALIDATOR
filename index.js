@@ -5,7 +5,6 @@ async function checkStatusCode(url, expectedStatus) {
         const response = await axios.get(url);
         return response.status === expectedStatus;
     } catch (error) {
-        console.error(`Error fetching ${url}:`, error.message);
         return false;
     }
 }
@@ -15,7 +14,6 @@ async function checkJSONKey(url, key) {
         const response = await axios.get(url);
         return key in response.data;
     } catch (error) {
-        console.error(`Error fetching ${url}:`, error.message);
         return false;
     }
 }

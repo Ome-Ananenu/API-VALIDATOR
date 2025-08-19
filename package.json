@@ -1,15 +1,32 @@
 {
-    "name": "api-validator",
-    "version": "1.0.0",
-    "description": "A simple Node.js tool to validate API responses for QA engineers.",
-    "main": "index.js",
-    "scripts": {
-      "test": "node examples/testExample.js"
-    },
-    "author": "Omenebele Eunice Ananenu",
-    "license": "MIT",
-    "dependencies": {
-      "axios": "^1.6.0"
-    }
-  }
-  
+  "name": "api-validator",
+  "version": "1.0.0",
+  "description": "A simple Node.js tool for QA engineers to validate API responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ome-Ananenu/API-VALIDATOR.git"
+  },
+  "keywords": [
+    "QA",
+    "API",
+    "testing",
+    "automation"
+  ],
+  "author": "Omenebele Eunice Ananenu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Ome-Ananenu/API-VALIDATOR/issues"
+  },
+  "homepage": "https://github.com/Ome-Ananenu/API-VALIDATOR#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
+}

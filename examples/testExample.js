@@ -1,4 +1,4 @@
-const { checkStatusCode, checkJSONKey } = require('../index');
+const { checkStatusCode, checkJSONKey } = require('../index'); 
 
 (async () => {
     const url = 'https://jsonplaceholder.typicode.com/todos/1';
