@@ -1,5 +1,5 @@
 {
-  "name": "api-validator",
+  "name": "qa-api-validator",
   "version": "1.0.0",
   "description": "A simple Node.js tool for QA engineers to validate API responses",
   "main": "index.js",
